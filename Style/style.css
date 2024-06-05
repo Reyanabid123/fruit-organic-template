@@ -1,0 +1,495 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*  Nav Bar Css */
+.same {
+  color: #00CD26;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.same a {
+  text-decoration: none;
+  color: #00CD26;
+}
+
+.input-box {
+  position: relative;
+}
+
+.input-box i {
+  position: absolute;
+  right: 13px;
+  top: 10px;
+  color: #00CD26;
+}
+
+#btn-cart {
+  border: none;
+  color: #00CD26;
+  background-color: white;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#search-section {
+  background-color: rgba(199, 199, 199, 0.275) !important;
+}
+/*  Carosuel Css */
+
+
+#imgCaption {
+  top: 20%
+}
+
+#imgCaption p {
+  margin: 0;
+}
+
+#imgCaption h1 {
+  font-size: 90px;
+  color: yellow;
+  margin: 0;
+}
+
+#imgCaption button {
+  border: 3px solid yellow;
+  background-color: transparent;
+  padding: 4px 15px;
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+
+/*  3rd Section Link CSS */
+
+#iconLink {
+  font-size: 30px;
+  color: #00CD26;
+}
+
+#roundLink {
+  border: 2px dotted #00CD26;
+  padding: 33px;
+  border-radius: 200px;
+
+}
+
+#leftlinkSpace {
+  padding-left: 0px;
+}
+
+#leftlinkSpace p {
+  font-size: 15px;
+}
+
+/*   Offer section CSS */
+#background1 {
+  background-image: url("../assets/images/ad1-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+#moveText {
+  position: absolute;
+  top: 32%;
+  left: 25%;
+}
+
+
+#background2 {
+  background-image: url("../assets/images/ad4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cloneBtn {
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border: 4px solid white;
+  border-radius: 300px;
+  padding: 3px 20px;
+  font-size: 18px;
+}
+
+#subBackground {
+  background-image: url("../assets/images/ad2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  margin:0px 30px 20px 30px ;
+}
+
+#subBtnMove {
+  position: absolute;
+  top: 20%;
+  left: 38%;
+}
+
+#subBackground2 {
+  background-image: url("../assets/images/ad3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  margin: 0px 30px;
+}
+
+#subBtnMove2 {
+  position: absolute;
+  top: 40%;
+  left: 38%;
+}
+
+
+                                    /*Blog Section  */
+
+#boxShadow{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btnColor{
+  background-color: #00CD26;
+  color: white;
+  padding: 0px 20px;
+  border-radius: 30px;
+  border-color: transparent;
+}
+
+                                    /*  Location */
+
+#borderTop{
+border-top: 1px solid rgb(167, 165, 165);
+}
+
+                                    /*Footer  */
+
+#footerColor{
+
+  background-color: rgba(0, 0, 0, 0.817);
+}
+
+#footerLi li{
+  padding: 8px 0px;
+  color: rgb(174, 174, 174);
+
+}
+#footerLi li::marker{
+ color:#00CD26;
+
+}
+#iconColor{
+  color: #00CD26;
+  font-size: 20px;
+}
+#contactTxt p{
+  color: rgb(174, 174, 174);
+}
+#footerBorder{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.201);
+}
+
+#socialIcon{
+  width: 25px;
+  margin: 0px 3px;
+}
+#payIcon{
+  width: 24px;
+  margin: 0px 3px;
+}
+#footerTxtIcon{
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+#footer2{
+  background-color: white;
+}
+#footerLinks a{
+text-decoration: none;
+}
+
+
+
+/*  All Media Query */
+@media only screen and (min-width: 992px) {
+  #font {
+    background-color: #00CD26;
+    border-radius: 200px;
+    color: white;
+  }
+
+  #imgCaption {
+    top: 11%
+  }
+
+  #imgCaption h1 {
+    font-size: 85px;
+    color: yellow;
+    margin: 0;
+  }
+
+  #imgCaption button {
+    border: 3px solid yellow;
+    background-color: transparent;
+    padding: 4px 15px;
+    color: white;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 420px) and (min-width: 0px) {
+  #imgCaption {
+    display: none;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 576px) and (min-width: 420px) {
+
+  #imgCaption {
+    top: 12%
+  }
+
+  #imgCaption h1 {
+    display: none;
+  }
+
+  #imgCaption button {
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  #imgCaption p {
+    color: yellow;
+    font-size: 19px;
+    font-weight: bold;
+
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 576px) and (min-width: 0px) {
+/* offer Section Media query */
+
+#background1 {
+  height: 210px;
+  background-size: inherit;
+  margin-bottom: 22px;
+
+
+}  
+#background2 {
+  height: 210px;
+  background-size: inherit;
+  margin-top:23px;
+
+}
+ #moveText {
+  left: 35%;
+  top: 16%;
+}
+
+#subBackground {
+  background-size: inherit;
+  margin: 0;
+  margin-bottom: 20px;
+
+}
+#subBackground2 {
+  background-size: inherit;
+  margin: 0;
+
+  
+}
+#DiscountPadding{
+  padding: 0;
+}
+
+#subBtnMove{
+  left: 35%;
+
+}
+#subBtnMove2{
+  left: 35%;
+
+}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+
+  #imgCaption {
+    top: 12%
+  }
+
+  #imgCaption h1 {
+    font-size: 50px;
+  }
+
+  #imgCaption button {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  #imgCaption p {
+    font-size: 17px;
+
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+
+  /* offer Section Media query */
+
+  #background1 {
+    height: 270px;
+    background-size: 457px;
+    margin-bottom: 22px;
+  }  
+  #background2 {
+    height: 270px;
+    background-size: 457px;
+    margin-top:23px;
+  }
+  #moveText {
+    left: 40%;
+  }
+
+  #subBackground {
+    background-size: 570px;
+
+  }
+  #subBackground2 {
+    background-size: 570px;
+    
+  }
+
+  #subBtnMove{
+    left: 40%;
+
+  }
+  #subBtnMove2{
+    left: 40%;
+
+  }
+}
+
+
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+
+  #imgCaption {
+    top: 12%
+  }
+
+  #imgCaption h1 {
+    font-size: 60px;
+  }
+
+  #imgCaption button {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  #imgCaption p {
+    font-size: 18px;
+  }
+
+  /* offer Section Media query */
+
+  #background1 {
+    height: 350px;
+    background-size: 570px;
+    margin-bottom: 22px;
+  }  
+  #background2 {
+    height: 350px;
+    background-size: 570px;
+    margin-top:23px;
+  }
+  #moveText {
+    left: 40%;
+  }
+
+  #subBackground {
+    background-size: 570px;
+
+  }
+  #subBackground2 {
+    background-size: 570px;
+    
+  }
+
+  #subBtnMove{
+    left: 40%;
+
+  }
+  #subBtnMove2{
+    left: 40%;
+
+  }
+
+}
+
+
+@media only screen and (max-width:1200px) and (min-width: 992px) {
+
+  #imgCaption {
+    top: 11%
+  }
+
+  #imgCaption h1 {
+    font-size: 80px;
+  }
+
+  #imgCaption button {
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  #imgCaption p {
+    font-size: x-large;
+  }
+
+}
+
+@media only screen and (min-width:1200px) {
+
+  #imgCaption {
+    top: 12%
+  }
+
+  #imgCaption h1 {
+    font-size: 95px;
+  }
+
+  #imgCaption button {
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  #imgCaption p {
+    font-size: xx-large;
+  }
+
+}
+

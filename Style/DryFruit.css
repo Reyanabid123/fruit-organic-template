@@ -1,0 +1,95 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /*  Nav Bar Css */
+  .same {
+    color: #00CD26;
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  
+  .same a {
+    text-decoration: none;
+    color: #00CD26;
+  }
+  
+  .input-box {
+    position: relative;
+  }
+  
+  .input-box i {
+    position: absolute;
+    right: 13px;
+    top: 10px;
+    color: #00CD26;
+  }
+  
+  #btn-cart {
+    border: none;
+    color: #00CD26;
+    background-color: white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  }
+
+
+  
+                                    /*Footer  */
+
+#footerColor{
+
+    background-color: rgba(0, 0, 0, 0.817);
+  }
+  
+  #footerLi li{
+    padding: 8px 0px;
+    color: rgb(174, 174, 174);
+  
+  }
+  #footerLi li::marker{
+   color:#00CD26;
+  
+  }
+  #iconColor{
+    color: #00CD26;
+    font-size: 20px;
+  }
+  #contactTxt p{
+    color: rgb(174, 174, 174);
+  }
+  #footerBorder{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.201);
+  }
+  
+  #socialIcon{
+    width: 25px;
+    margin: 0px 3px;
+  }
+  #payIcon{
+    width: 24px;
+    margin: 0px 3px;
+  }
+  #footerTxtIcon{
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+  }
+  #footer2{
+    background-color: white;
+  }
+  #footerLinks a{
+  text-decoration: none;
+  }
+
+
+  /*  All Media Query */
+
+  @media only screen and (min-width: 992px) {
+    #font {
+      background-color: #00CD26;
+      border-radius: 200px;
+      color: white;
+    }
+  }
